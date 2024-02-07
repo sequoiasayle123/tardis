@@ -1,0 +1,68 @@
+
+/* To add an image into the screen*/
+img{
+    max-width:100%;
+    background-color: #0B4F6C;
+    padding: 50px;
+}
+/* A tag ive used for links*/
+nav a{
+    text-decoration: none;
+}
+nav b{
+    text-align: right;
+}
+/* Navigation bar lists*/
+nav{
+    border: 1px;
+    padding: 5px;
+    background-color: #20bf55;
+}
+nav li{
+    list-style: none;
+    padding: 5px;
+}
+nav li:hover{
+    list-style: none;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: #149c41;
+    color: #d3d3d3;
+}
+
+/* Class specified in the nav bar*/
+.menu{
+    display: flex;
+    gap: 1em;
+}
+
+.profilePages{
+    position: relative;
+}
+
+.dropdown{
+    position: absolute;
+    display: none;
+}
+
+@media  screen and (min-width:800px) {
+    img{
+        max-width: 50%;
+    }
+    h1{
+        background-color: #01baef;
+        padding: 20px;
+        text-align: center;
+    }
+    .Wrapper{
+        display: flex;
+        gap: 0 20px;
+        flex: 1 1 auto;
+        align-items: center;
+    }
+    .photo,
+    .SiteInfo{
+        margin: 0;
+        flex: 1 1 50%;
+    }
+}
